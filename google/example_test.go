@@ -12,9 +12,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/fuzz-llc/oauth2"
-	"github.com/fuzz-llc/oauth2/google"
-	"github.com/fuzz-llc/oauth2/jwt"
+	"github.com/recapco/oauth2"
+	"github.com/recapco/oauth2/google"
+	"github.com/recapco/oauth2/jwt"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
 )

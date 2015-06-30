@@ -11,7 +11,7 @@
 // server.
 //
 // See http://tools.ietf.org/html/draft-ietf-oauth-v2-31#section-4.4
-package clientcredentials // import "github.com/fuzz-llc/oauth2/clientcredentials"
+package clientcredentials // import "github.com/recapco/oauth2/clientcredentials"
 
 import (
 	"net/http"
@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"golang.org/x/net/context"
-	"github.com/fuzz-llc/oauth2"
-	"github.com/fuzz-llc/oauth2/internal"
+	"github.com/recapco/oauth2"
+	"github.com/recapco/oauth2/internal"
 )
 
 // tokenFromInternal maps an *internal.Token struct into

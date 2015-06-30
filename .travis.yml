@@ -6,9 +6,9 @@ go:
 
 install:
   - export GOPATH="$HOME/gopath"
-  - mkdir -p "$GOPATH/src/github.com/fuzz-llc"
-  - mv "$TRAVIS_BUILD_DIR" "$GOPATH/src/github.com/fuzz-llc/oauth2"
-  - go get -v -t -d github.com/fuzz-llc/oauth2/...
+  - mkdir -p "$GOPATH/src/github.com/recapco"
+  - mv "$TRAVIS_BUILD_DIR" "$GOPATH/src/github.com/recapco/oauth2"
+  - go get -v -t -d github.com/recapco/oauth2/...
 
 script:
-  - go test -v github.com/fuzz-llc/oauth2/...
+  - go test -v github.com/recapco/oauth2/...

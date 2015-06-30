@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fuzz-llc/oauth2"
+	"github.com/recapco/oauth2"
 )
 
 func ExampleConfig() {

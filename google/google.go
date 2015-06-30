@@ -12,7 +12,7 @@
 // https://developers.google.com/accounts/docs/OAuth2
 // and
 // https://developers.google.com/accounts/docs/application-default-credentials.
-package google // import "github.com/fuzz-llc/oauth2/google"
+package google // import "github.com/recapco/oauth2/google"
 
 import (
 	"encoding/json"
@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fuzz-llc/oauth2"
-	"github.com/fuzz-llc/oauth2/jwt"
+	"github.com/recapco/oauth2"
+	"github.com/recapco/oauth2/jwt"
 	"google.golang.org/cloud/compute/metadata"
 )
 

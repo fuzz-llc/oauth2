@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/fuzz-llc/oauth2/internal"
+	"github.com/recapco/oauth2/internal"
 )
 
 // expiryDelta determines how earlier a token should be considered

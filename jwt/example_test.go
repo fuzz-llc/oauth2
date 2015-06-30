@@ -5,8 +5,8 @@
 package jwt_test
 
 import (
-	"github.com/fuzz-llc/oauth2"
-	"github.com/fuzz-llc/oauth2/jwt"
+	"github.com/recapco/oauth2"
+	"github.com/recapco/oauth2/jwt"
 )
 
 func ExampleJWTConfig() {

@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package vk provides constants for using OAuth2 to access VK.com.
-package vk // import "github.com/fuzz-llc/oauth2/vk"
+package vk // import "github.com/recapco/oauth2/vk"
 
 import (
-	"github.com/fuzz-llc/oauth2"
+	"github.com/recapco/oauth2"
 )
 
 // Endpoint is VK's OAuth 2.0 endpoint.

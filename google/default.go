@@ -15,8 +15,8 @@ import (
 	"runtime"
 
 	"golang.org/x/net/context"
-	"github.com/fuzz-llc/oauth2"
-	"github.com/fuzz-llc/oauth2/jwt"
+	"github.com/recapco/oauth2"
+	"github.com/recapco/oauth2/jwt"
 	"google.golang.org/cloud/compute/metadata"
 )
 

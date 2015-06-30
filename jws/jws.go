@@ -4,7 +4,7 @@
 
 // Package jws provides encoding and decoding utilities for
 // signed JWS messages.
-package jws // import "github.com/fuzz-llc/oauth2/jws"
+package jws // import "github.com/recapco/oauth2/jws"
 
 import (
 	"bytes"

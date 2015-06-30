@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package facebook provides constants for using OAuth2 to access Facebook.
-package facebook // import "github.com/fuzz-llc/oauth2/facebook"
+package facebook // import "github.com/recapco/oauth2/facebook"
 
 import (
-	"github.com/fuzz-llc/oauth2"
+	"github.com/recapco/oauth2"
 )
 
 // Endpoint is Facebook's OAuth 2.0 endpoint.

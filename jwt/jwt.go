@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/fuzz-llc/oauth2"
-	"github.com/fuzz-llc/oauth2/internal"
-	"github.com/fuzz-llc/oauth2/jws"
+	"github.com/recapco/oauth2"
+	"github.com/recapco/oauth2/internal"
+	"github.com/recapco/oauth2/jws"
 )
 
 var (

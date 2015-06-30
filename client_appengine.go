@@ -12,7 +12,7 @@ import (
 	"net/http"
 
 	"golang.org/x/net/context"
-	"github.com/fuzz-llc/oauth2/internal"
+	"github.com/recapco/oauth2/internal"
 	"google.golang.org/appengine/urlfetch"
 )
 

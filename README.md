@@ -7,13 +7,13 @@ oauth2 package contains a client implementation for OAuth 2.0 spec.
 ## Installation
 
 ~~~~
-go get github.com/fuzz-llc/oauth2
+go get github.com/recapco/oauth2
 ~~~~
 
 See godoc for further documentation and examples.
 
-* [godoc.org/github.com/fuzz-llc/oauth2](http://godoc.org/github.com/fuzz-llc/oauth2)
-* [godoc.org/github.com/fuzz-llc/oauth2/google](http://godoc.org/github.com/fuzz-llc/oauth2/google)
+* [godoc.org/github.com/recapco/oauth2](http://godoc.org/github.com/recapco/oauth2)
+* [godoc.org/github.com/recapco/oauth2/google](http://godoc.org/github.com/recapco/oauth2/google)
 
 
 ## App Engine
@@ -40,8 +40,8 @@ with the `oauth2` package.
 
 	import (
 		"golang.org/x/net/context"
-		"github.com/fuzz-llc/oauth2"
-		"github.com/fuzz-llc/oauth2/google"
+		"github.com/recapco/oauth2"
+		"github.com/recapco/oauth2/google"
 		newappengine "google.golang.org/appengine"
 		newurlfetch "google.golang.org/appengine/urlfetch"
 
